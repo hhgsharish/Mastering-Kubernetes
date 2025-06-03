@@ -13,7 +13,7 @@ spec:
     - "result.cloudvishwakarma.in"
     secretName: nginx-tls-default
   rules:
-  - host: result.cloudvishwakarma.in
+  - host: result.snehainteriordesign.com
     http:
       paths:
       - path: /
@@ -37,11 +37,11 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - "vote.cloudvishwakarma.in"
-    - "www.cloudvishwakarma.in"
+    - "vote.snehainteriordesign.com"
+    - "www.snehainteriordesign.com"
     secretName: nginx-tls-default
   rules:
-  - host: vote.cloudvishwakarma.in
+  - host: vote.snehainteriordesign.com
     http:
       paths:
       - path: /
@@ -51,7 +51,7 @@ spec:
             name: vote
             port:
               number: 80
-  - host: www.cloudvishwakarma.in
+  - host: www.snehainteriordesign.com
     http: 
       paths:
       - path: /
